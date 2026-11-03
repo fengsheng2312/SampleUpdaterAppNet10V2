@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RuntimeIdentifiers>win-x64;win-x86</RuntimeIdentifiers>
+    <Version>1.0.22</Version>
+    <FileVersion>1.0.22.0</FileVersion>
+    <AssemblyVersion>1.0.22.0</AssemblyVersion>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- V2 核心变化：自动更新改由官方 NuGet 包 AutoUpdater.NET 实现（V1 无任何外部依赖） -->
+    <PackageReference Include="Autoupdater.NET.Official" Version="1.9.3" />
+  </ItemGroup>
+
+</Project>

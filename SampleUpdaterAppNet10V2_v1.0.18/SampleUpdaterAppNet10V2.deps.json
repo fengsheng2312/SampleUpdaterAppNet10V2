@@ -1,0 +1,166 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {},
+    ".NETCoreApp,Version=v10.0/win-x64": {
+      "SampleUpdaterAppNet10V2/1.0.18": {
+        "dependencies": {
+          "Autoupdater.NET.Official": "1.9.3",
+          "Microsoft.Web.WebView2.Core": "1.0.4078.44",
+          "Microsoft.Web.WebView2.WinForms": "1.0.4078.44",
+          "Microsoft.Web.WebView2.Wpf": "1.0.4078.44"
+        },
+        "runtime": {
+          "SampleUpdaterAppNet10V2.dll": {}
+        }
+      },
+      "Autoupdater.NET.Official/1.9.3": {
+        "dependencies": {
+          "Microsoft.Web.WebView2": "1.0.4078.44"
+        },
+        "runtime": {
+          "lib/net10.0-windows7.0/AutoUpdater.NET.dll": {
+            "assemblyVersion": "1.9.3.0",
+            "fileVersion": "1.9.3.0"
+          }
+        },
+        "resources": {
+          "lib/net10.0-windows7.0/ar/AutoUpdater.NET.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net10.0-windows7.0/cs/AutoUpdater.NET.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net10.0-windows7.0/da/AutoUpdater.NET.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net10.0-windows7.0/de/AutoUpdater.NET.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net10.0-windows7.0/es/AutoUpdater.NET.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net10.0-windows7.0/fr/AutoUpdater.NET.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net10.0-windows7.0/it/AutoUpdater.NET.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net10.0-windows7.0/ja-JP/AutoUpdater.NET.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net10.0-windows7.0/ko/AutoUpdater.NET.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net10.0-windows7.0/lv/AutoUpdater.NET.resources.dll": {
+            "locale": "lv"
+          },
+          "lib/net10.0-windows7.0/nl/AutoUpdater.NET.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net10.0-windows7.0/pl/AutoUpdater.NET.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net10.0-windows7.0/pt-BR/AutoUpdater.NET.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net10.0-windows7.0/pt/AutoUpdater.NET.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net10.0-windows7.0/ru/AutoUpdater.NET.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net10.0-windows7.0/sk/AutoUpdater.NET.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net10.0-windows7.0/sv/AutoUpdater.NET.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net10.0-windows7.0/th/AutoUpdater.NET.resources.dll": {
+            "locale": "th"
+          },
+          "lib/net10.0-windows7.0/tr/AutoUpdater.NET.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net10.0-windows7.0/zh-TW/AutoUpdater.NET.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net10.0-windows7.0/zh/AutoUpdater.NET.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2/1.0.4078.44": {
+        "native": {
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "fileVersion": "1.0.4078.44"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Core/1.0.4078.44": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.4078.44",
+            "fileVersion": "1.0.4078.44"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.WinForms/1.0.4078.44": {
+        "runtime": {
+          "Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.4078.44",
+            "fileVersion": "1.0.4078.44"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Wpf/1.0.4078.44": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.4078.44",
+            "fileVersion": "1.0.4078.44"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SampleUpdaterAppNet10V2/1.0.18": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autoupdater.NET.Official/1.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y+EBF06yirUKojQIh9w3xCeD1BNThIJUxHu34TvruaAFx5gaOQXO98OIF0YI0kCd//4JKv437MWGB7YDQNLTYA==",
+      "path": "autoupdater.net.official/1.9.3",
+      "hashPath": "autoupdater.net.official.1.9.3.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2/1.0.4078.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TQkHa/aOHUqFHnJIJ/2ZmJ4nLcQJi0Pc0rj9BAs7SP5sT/KtVtb8jFp9uqQL6cKzCRSrwjS/wEPA43NWUOzU+A==",
+      "path": "microsoft.web.webview2/1.0.4078.44",
+      "hashPath": "microsoft.web.webview2.1.0.4078.44.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2.Core/1.0.4078.44": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.WinForms/1.0.4078.44": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.Wpf/1.0.4078.44": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
